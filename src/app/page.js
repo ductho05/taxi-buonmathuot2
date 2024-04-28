@@ -13,7 +13,7 @@ import Link from 'next/link';
 const slides = [
     {
         id: 0,
-        url: 'https://images.pexels.com/photos/3760814/pexels-photo-3760814.jpeg',
+        url: 'https://cafefcdn.com/203337114487263232/2023/3/21/photo-1-16793860309921848552376.jpg',
         text: 'Tận hưởng chuyến đi thoải mái',
         title: 'Đặt taxi online'
     },
@@ -53,20 +53,6 @@ export default function Home() {
             clearTimeout(timeouts.current);
         }
     }
-
-    useEffect(() => {
-        resetTimeout()
-        timeouts.current = setTimeout(() => {
-            setSlide(prev => {
-                return prev.id >= slides.length - 1 ? slides[0] : slides[prev.id + 1]
-            })
-        }, 18000)
-
-        return () => {
-            resetTimeout()
-        }
-
-    }, [slide])
 
     const handleClickSlide = (id) => {
         setSlide(slides[id])

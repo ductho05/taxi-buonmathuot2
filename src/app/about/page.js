@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className={cx('wrapper')}>
       <div className={cx('heading')}>
-        <img src='https://images.pexels.com/photos/5648421/pexels-photo-5648421.jpeg' alt='background' className={cx('background')} />
+        <img src='https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/1/3/1133990/Toyota-Vios-2023-01.jpeg' alt='background' className={cx('background')} />
         <div className={cx('heading_info')}>
           <h3 className={cx('heading_title')}>Thông tin</h3>
           <p className={cx('about')}>Thông tin về chúng tôi</p>
