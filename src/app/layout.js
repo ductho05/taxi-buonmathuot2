@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.ico" />
-        <meta name="google-site-verification" content="oyZKGfWq3_JK_esth-rDJyV4eqOBnm7W1BMVLGhYTXw" />
+        <meta name="google-site-verification" content="kaaBvoQWMO9Jr4gGWyM82T7WHSoTEwRwJ9DTiNZHegE" />
       </head>
       <body className={inter.className}>
         <Navbar />
